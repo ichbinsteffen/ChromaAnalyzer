@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bz07eV" name="ChromaAnalyzer" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.HfM.ChAL" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="0" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" buildStandalone="0" enableIAA="0" pluginName="ChromaAnalyzer"
+              pluginDesc="Find out about the played note's wrapped in one octave."
+              pluginManufacturer="Steffen Ebner" pluginManufacturerCode="HfM"
+              pluginCode="Bz07" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="ChromaAnalyzerAU" pluginRTASCategory=""
+              aaxIdentifier="com.yourcompany.ChromaAnalyzer" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              jucerVersion="5.0.2" companyName="HfM" pluginAUMainType="" pluginVSTCategory=""
+              companyWebsite="www.hfm.eu">
+  <MAINGROUP id="Disfpa" name="ChromaAnalyzer">
+    <GROUP id="{61CA8CDD-3800-BADA-AFCF-D4C40FA61E6E}" name="Source">
+      <FILE id="bgZXA3" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="fD0szk" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kdv0W4" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="eSa9dV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="ChromaAnalyzer"
+                       libraryPath="" defines="" customXcodeFlags=""/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="ChromaAnalyzer"
+                       libraryPath=""/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Frameworks/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
